@@ -1,0 +1,97 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(to bottom, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%);  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.mlr1 {
+  margin: 0 1rem 0 1rem;
+}
+
+.sessions, .controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.break-timer {
+  margin: 10px;
+  /* background-color: aqua; */
+  padding: 1rem;
+}
+
+.session-timer {
+  margin: 10px;
+  /* background-color: aqua; */
+  padding: 1rem;
+}
+
+.heading {
+  margin: 0;
+  font-size: 2rem;
+  padding: 2px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fa-arrow-down:hover,
+.fa-arrow-up:hover,
+.fa-play:hover,
+.fa-pause:hover,
+.fa-refresh:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.count {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.timer {
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.session-count {
+  margin: 0;
+  font-size: 5rem;
+}
+
+.rounded-border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: 5px solid;
+  border-radius: 20px;
+}
+
+.rounded-border > h2 {
+  margin: 0;
+}
+
+.controls {
+  width: 100%;
+  margin: 1rem;
+  padding: 1rem;
+}
